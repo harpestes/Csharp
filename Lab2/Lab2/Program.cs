@@ -33,7 +33,7 @@ namespace Lab2
             while (!isNNOk);
             for(int k = nn; k < nk; k++)
             {
-                result += (Math.Pow(-1, (Math.Pow(k, 2) + k + 1)) * Math.Pow(k, 2)) / (2 * Math.Pow(k, 2) + 5);
+                result *= (Math.Pow(-1, (Math.Pow(k, 2) + k + 1)) * Math.Pow(k, 2)) / (2 * Math.Pow(k, 2) + 5);
             }
             Console.WriteLine(result);
         }
