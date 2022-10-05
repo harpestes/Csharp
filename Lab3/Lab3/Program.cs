@@ -31,12 +31,7 @@ namespace Lab3
 
             firstSum = first + second;
             secondSum = third + fourth;
-
-            if(firstSum == secondSum)
-            {
-                Console.WriteLine("True");
-            }
-            else Console.WriteLine("False");
+            Console.Write("Sum of the first two number and sum of the last two numbers are equal: " + (firstSum == secondSum));
         }
     }
 }

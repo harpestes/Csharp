@@ -24,11 +24,11 @@ namespace Lab4
                 isKOk = int.TryParse(strK, out k);
                 if (!isKOk)
                 {
-                    Console.Write("Please enter right value");
+                    Console.WriteLine("Please enter right value");
                 }
-                else if (k < 1 && k > N)
+                else if (k < 1 || k > N)
                 {
-                    Console.Write("Please enter right value");
+                    Console.WriteLine("Please enter right value");
                 }
             }
             while (!isKOk || k < 1 || k > N);

@@ -63,7 +63,7 @@ namespace Lab5
 
         static void Main(string[] args)
         {
-            int N = 5, M = 5;
+            const int N = 5, M = 5;
             int[,] arr = new int[M, N];
 
             Random rnd = new Random();
